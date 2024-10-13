@@ -16,5 +16,5 @@ int main()
     std::cin.ignore(1);
     std::cin >> a;
   }
-  std::cout << a / 4  << '\n';
+  std::cout << a / 5  << '\n';
 }
