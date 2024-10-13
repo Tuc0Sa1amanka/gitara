@@ -11,12 +11,10 @@ int main()
   {
     std::cerr << "Bad" << '\n';
   }
-  else if (std::cin.fail())
-  {
     std::cerr << "Fail" << '\n';
     std::cin.clear();
     std::cin.ignore(1);
     std::cin >> a;
   }
-  std::cout << a / 2 << '\n';
+  std::cout << a / 3  << '\n';
 }
