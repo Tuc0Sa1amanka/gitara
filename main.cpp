@@ -5,7 +5,7 @@ int main()
   std::cin >>  a;
   if (std::cin.eof())
   {
-    std::cerr << "Eof" << '\n';
+    std::cerr << "Eof";
   }
   else if (std::cin.bad())
   {
