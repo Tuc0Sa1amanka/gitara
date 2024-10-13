@@ -18,6 +18,9 @@ int main()
   else if (std::cin.fail())
   {
     std::cerr << "Fail" << '\n';
+    std::cin.clear();
+    std::cin.ignore(1);
+    std::cin >> a;
   }
   std::cout << a / 2 << '\n';
 }
